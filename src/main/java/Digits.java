@@ -10,7 +10,7 @@ public class Digits
 	   digitList = new ArrayList<Integer>();
 	   String sNum = num + "";
 	   for(int i = 0; i < sNum.length(); i++)
-		digitsList.add(Integer.parseInt(sNum.charAt(i) + ""));
+		digitList.add(Integer.parseInt(sNum.charAt(i) + ""));
 	}
 
 	public boolean isStrictlyIncreasing()
